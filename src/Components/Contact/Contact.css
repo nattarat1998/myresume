@@ -1,0 +1,152 @@
+.quote-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 2rem;
+}
+
+.img-me-quote {
+    width: 500px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+}
+
+.quote {
+    font-size: 60px;
+}
+
+.container-contact-header {
+    padding-top: 10rem;
+}
+
+.contact-title {
+    font-size: 50px;
+}
+
+.contact-subtitle {
+    font-size: 18px;
+    color: #999;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    text-align: center;
+    column-gap: 10px;
+    row-gap: 50px;
+    padding-top: 6rem;
+}
+
+.list-unstyled {
+    text-align: left;
+}
+
+.contact-detail {
+    font-size: 30px;
+    text-align: left;
+    line-height: 50px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 420px) {
+    .quote-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: stretch;
+        align-items: center;
+        column-gap: 10px;
+        padding-top: 2rem;
+    }
+
+    .quote {
+        font-size: 25px;
+    }
+
+    .contact-title {
+        font-size: 40px;
+    }
+
+    .contact-subtitle {
+        font-size: 15px;
+    }
+
+    .container-contact-header {
+        padding-top: 3rem;
+    }
+
+    .img-me-quote {
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    }
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: stretch;
+        align-items: stretch;
+        column-gap: 10px;
+        row-gap: 50px;
+        padding-top: 2rem;
+    }
+
+    .contact-detail {
+        font-size: 15px;
+        text-align: left;
+        line-height: 40px;
+    }
+
+    .contact-detail-btn {
+        font-size: 15px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .btn-add-line {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+
+    .contact-title {
+        font-size: 40px;
+    }
+    
+    .contact-subtitle {
+        font-size: 15px;
+        color: #999;
+    }
+
+    .img-me-quote {
+        width: 280px;
+        height: 210px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    }
+
+    .quote {
+        font-size: 35px;
+    }
+
+    .contact-detail {
+        font-size: 25px;
+        text-align: left;
+        line-height: 50px;
+    }
+
+    .container-contact-header {
+        padding-top: 5rem;
+    }
+}

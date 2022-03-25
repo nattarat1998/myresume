@@ -1,0 +1,147 @@
+.container-skills-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 10px;
+    row-gap: 40px;
+    padding-top: 30px;
+}
+
+.skills-title {
+    font-size: 50px;
+}
+
+.skills-subtitle {
+    color: #999;
+    line-height: 0%;
+}
+
+.container-skills-detail {
+    margin-top: 6rem;
+}
+
+.header-skill {
+    font-size: 25px;
+}
+
+.icon-dropdown {
+    text-align: right;
+    font-size: 30px;
+}
+
+.stack-name {
+    text-align: left;
+}
+
+.stack-level {
+    text-align: right;
+}
+
+.front-end-title {
+    font-size: 30px;
+    text-align: left;
+}
+
+.back-end-title {
+    text-align: left;
+    font-size: 30px;
+}
+
+.db-title {
+    text-align: left;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 420px) {
+
+    .container-skills-detail {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: stretch;
+        align-items: stretch;
+        column-gap: 10px;
+        row-gap: 40px;
+        padding-top: 30px;
+    }
+
+    .skills-title {
+        font-size: 40px;
+    }
+    
+    .skills-subtitle {
+        color: #999;
+        line-height: 0%;
+        font-size: 15px;
+    }
+    
+    .container-skills-detail {
+        margin-top: 1rem;
+    }
+    
+    .header-skill {
+        font-size: 20px;
+    }
+    
+    .icon-dropdown {
+        text-align: right;
+        font-size: 20px;
+    }
+    
+    .stack-name {
+        text-align: left;
+        font-size: 13px;
+    }
+    
+    .stack-level {
+        text-align: right;
+        font-size: 13px;
+    }
+    
+    .front-end-title {
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    .back-end-title {
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    .db-title {
+        text-align: left;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+    .front-end-title {
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    .back-end-title {
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    .db-title {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .icon-dropdown {
+        text-align: right;
+        font-size: 20px;
+    }
+
+    .container-skills-detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: stretch;
+        align-items: stretch;
+        column-gap: 10px;
+        row-gap: 40px;
+        padding-top: 30px;
+    }
+}

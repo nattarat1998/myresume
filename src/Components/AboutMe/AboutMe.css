@@ -1,0 +1,162 @@
+.about-title {
+    font-size: 40px;
+}
+
+.about-subtitle {
+    color: #999;
+    line-height: 0%;
+}
+
+.container-about-detail {
+    margin-top: 6rem;
+}
+
+.img-about {
+    border-radius: 20%;
+    width: 300px;
+    height: 300px;
+}
+
+.column-img-about {
+    text-align: center;
+}
+
+.column-profile-detail {
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.iot-exp {
+    text-align: center;
+    font-size: 30px;
+}
+
+.web-exp {
+    text-align: center;
+    font-size: 30px;
+}
+
+.pj-exp {
+    text-align: center;
+    font-size: 30px;
+}
+
+.iot-exp-detail {
+    text-align: center;
+}
+
+.web-exp-detail {
+    text-align: center;
+}
+
+.pj-exp-detail {
+    text-align: center;
+}
+
+.column-iot-icon {
+    text-align: center;
+}
+
+.iot-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.column-web-icon {
+    text-align: center;
+}
+
+.web-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.column-pj-icon {
+    text-align: center;
+}
+
+.pj-icon {
+    width: 60px;
+    height: 60px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 420px) {
+    .container-about-detail {
+        margin-top: 2rem;
+    }
+
+    .about-subtitle {
+        color: #999;
+        line-height: 0%;
+        font-size: 15px;
+    }
+
+    .img-about {
+        border-radius: 20%;
+        width: 250px;
+        height: 250px;
+    }
+
+    .column-img-about {
+        text-align: center;
+    }
+    
+    .column-profile-detail {
+        text-align: left;
+        padding-top: 1.5rem;
+        font-size: 0.85rem;
+    }
+
+    .iot-exp {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .web-exp {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .pj-exp {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .iot-exp-detail {
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .web-exp-detail {
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .pj-exp-detail {
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .column-iot-icon {
+        text-align: center;
+    }
+    
+    .iot-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .web-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .column-pj-icon {
+        text-align: center;
+    }
+    
+    .pj-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
